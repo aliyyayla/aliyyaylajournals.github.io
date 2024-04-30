@@ -1,0 +1,127 @@
+
+/* this about class covers all the description, image and the paragraph.
+ This is the default look of the About Aliyya. */
+.about {
+    display:flex;
+    align-items: flex-start;
+    font-family:'inter';
+}
+
+/* this header tag will help the header to look neat and 
+clean and aesthetically pleasing. */
+header {
+    background-color:#f6f6f6; 
+    padding: 5px 0;
+    color:rgb(216, 199, 177);
+    margin: 30px;
+    font-size: 40px;
+    font-family:'Merriweather';
+}
+
+/* This css code covers the text logo aliyya.yla journals
+as a default look of the website. */
+h1 {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+    font-family:'Merriweather';
+}
+
+/* this h1 a is for the text inside the header which is 
+aliyya.yla journals. This sets the color and font size of the 
+header 1. */
+h1 a {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+    font-family:'Merriweather';
+}
+
+/* this sets the default look of the header 2. */
+h2 {
+    text-align: right justify;
+    font-family:'Merriweather';
+}
+
+/* this sets the footer a default look. */
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #706b6b;
+    color:#ffffda;
+    margin-top: auto;
+}
+
+/* this sets the footer's nav unordered list into a
+default look. */
+footer nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+/* this sets thw footer's unordered list into the center and 
+helps every section of the nav bar inline and organized. */
+footer nav ul li {
+    display: inline;
+    margin:20px;
+}
+
+/* this navigation ul list a sets the navigation bar's appearance and 
+smooth transition when cursor hovers the nav. */
+footer nav ul li a {
+    color:rgb(216, 199, 177);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3 ease;    
+}
+
+/* this div class about-container p sets the paragraph
+to the left side of the screen. */
+.about-container p {
+    margin-left: 100px;
+    float:left;
+    font-family:'inter';
+}
+
+/* this sets the paragraph copyright to be centered. */
+footer p {
+    text-align: center;
+    font-family:'inter';
+}
+
+/* this sets the aliyya.yla journals to be centered. */
+footer h1 {
+    text-align: center;
+    font-family:'Merriweather';
+    font-size: 40px;
+}
+
+/*this is for the image. */
+.me {
+    flex: 0 0 auto;
+    width: 440px;
+    height: 580px;
+    margin-left: 20px;
+    top: 20px;
+    right: 20px;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    border-bottom-left-radius: 47%;
+    border-bottom-right-radius: 47%;
+}
+
+/* this is for the description under the div class about. */
+.description {
+    display: flex;
+    font-family:'inter';
+}
+
+/*this is for the About Me header. */
+h4 {
+    font-size: 55px;
+    color:rgb(216, 199, 177);
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 0%;
+    font-family:'Merriweather';
+}
+

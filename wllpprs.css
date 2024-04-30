@@ -1,0 +1,141 @@
+
+/* this header tag will help the header to look neat and 
+clean and aesthetically pleasing. */
+header {
+    background-color:#f6f6f6; 
+    padding: 5px 0;
+    color:rgb(216, 199, 177);
+    margin: 30px;
+    font-size: 40px;
+}
+
+/* this sets the default look of all the paragraphs 
+in the website. */
+p {
+    font-size: 25px;
+    font-family:'inter';
+    text-align: justify left;
+    color: rgb(216, 199, 177);
+}
+
+/* This css code covers the text logo aliyya.yla journals
+as a default look of the website. */
+h1 {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+
+}
+
+/* this h1 a is for the text inside the header which is 
+aliyya.yla journals. This sets the color and font size of the 
+header 1. */
+h1 a {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+}
+
+/* this sets the footer a default look. 
+It also made to align the text at the center. */
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #706b6b;
+    color:#ffffda;
+}
+
+/* this sets the footer's nav unordered list into a
+default look. */
+footer nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+/* this sets thw footer's unordered list into the center and 
+helps every section of the nav bar inline and organized. */
+footer nav ul li {
+    display: inline;
+    margin:20px;
+}
+
+/* this navigation ul list a sets the navigation bar's appearance and 
+smooth transition when cursor hovers the nav. */
+footer nav ul li a {
+    color:rgb(216, 199, 177);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3 ease;    
+}
+
+/* this help set the h1 text which is the aliyya.yla journals
+into the center of the footer. */
+footer h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* this tag sets the buttons default look. */
+button {
+    padding: 15px;
+    background-color: #706b6b;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* this aligns the overall paragraph and image to be at the left side. */
+.wallpapers {
+    text-align: left;
+    margin-right: 40px;
+}
+
+/* button hover is for when your cursor is pressed against the button, 
+the appearance will transition according to the code. */
+.btn:hover { 
+    transition: 0.3s;
+    background-color:rgb(216, 199, 177);
+    color:tomato;
+}
+
+/* this css code helps the button to adjust and align from the beginning
+of the paragraph. */
+.bh-container .btn {
+    float:left;
+    margin-left: 40px;
+}
+
+/* this sets the paragraph of the footer to be centered in
+the footer. */
+footer p {
+    text-align: center;
+}
+
+/* this css code sets the paragraph to the left part at the right side of the image. */
+.bh-container p {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* this is the div class tag for the image.
+This helps the image to be still at the left side of the screen. */
+.coffee {
+    flex: 0 0 auto;
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+    top: 20px;
+    right: 20px;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+}
+
+/* this css code sets the header to the left part at the right side of the image. */
+.bh-container h2 {
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 55px;
+}
+
+

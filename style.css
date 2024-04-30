@@ -1,0 +1,269 @@
+/* this css code selects all the elements on my webpage.
+It makes the style of my website a default look. */
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* the body tag sets a default font, padding, margin,
+and bg color for all the website. */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0%;
+    background-color:#f6f6f6;
+}
+
+/* this header tag will help the header to look neat and 
+clean and aesthetically pleasing. */
+header {
+    background-color:#f6f6f6; 
+    padding: 5px 0;
+    color:rgb(216, 199, 177);
+    margin: 30px;
+    font-size: 40px;
+}
+
+/* This code is for the marquee tag. Using this code will
+help the right adjustments for the text to appear in the website. */
+.marq {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-decoration:wavy;
+}
+
+/* This code is for the div class blbry,
+it makes up the appearance of the marquee text looks like. */
+.blbry {
+    font-size: 90px;
+    font-weight: bold;
+    color:#706b6b;
+    padding-bottom: 10px;
+    font-family:'Merriweather';
+}
+
+/* This css code covers the text logo aliyya.yla journals
+as a default look of the website. */
+h1 {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+    font-family:'Merriweather';
+}
+
+/* this h1 a is for the text inside the header which is 
+aliyya.yla journals. This sets the color and font size of the 
+header 1. */
+h1 a {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+    font-family:'Merriweather';
+}
+
+/* this nav ul if for the unordered listed navigation. 
+This styles the navigation bar into separated and organized
+section. */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding; 0;
+    text-align: center;
+    font-family:'Merriweather';
+}
+
+/* this one is for the listed navigation bar to be at the 
+center of the header. */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* this unordered list a sets the colors and the text decoration 
+of the navigation bar. */
+nav ul li a {
+    text-decoration: none;
+    color:rgb(216, 199, 177);
+}
+
+/* this part of code in the navigation bar helps it to change colors
+when the cursor hovers over the nav. */
+nav ul li a:hover {
+    transition: 0.3s;
+    color:tomato;
+}
+
+/* this part is for the first part of the introduction in the website.
+This will set the text to be at the center. */
+.home {
+    text-align: center;
+    margin: 50px;
+    font-family:'Merriweather';
+}
+
+/* the div class wallpapers is for setting the second part of the home page. */
+.wallpapers {
+    text-align: left;
+    margin: 50px;
+    font-family:'Merriweather';
+}
+
+/*this div class about is setting the about.html's paragraph code. */
+.about {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    font-family:'Inter';
+}
+
+/* this tag sets the buttons default look. */
+button {
+    padding: 15px;
+    background-color: #706b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Merriweather';
+}
+
+/* this btn class tag lets the button change color with
+a smooth transition when cursor hovers the button.  */
+.btn:hover {
+    transition: 0.3s;
+    background-color:rgb(216, 199, 177);
+    color:tomato;
+}
+
+/* this sets the default look of the header 1. */
+h1 {
+    font-size: 40px;
+    color: rgb(216, 199, 177);
+    text-align: left; 
+    margin-left: 10px; 
+    margin-top: 15px;
+    padding-top:5px;
+    font-family:'Merriweather';
+}
+
+/* this sets the default look of the header 2. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: rgb(216, 199, 177);
+}
+
+/* this sets the default look of all the paragraphs 
+in the website. */
+p {
+    font-size: 25px;
+    font-family:'Inter';
+    text-align: justify;
+    color: rgb(216, 199, 177);
+}
+
+/* this sets the footer a default look. */
+footer {
+    padding: 10px 0px;
+    background-color: #706b6b;
+    color:#ffffda;
+}
+
+/* this sets the footer's nav unordered list into a
+default look. */
+footer nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+/* this sets thw footer's unordered list into the center and 
+helps every section of the nav bar inline and organized. */
+footer nav ul li {
+    display: inline;
+    margin:20px;
+}
+
+/* this navigation ul list a sets the navigation bar's appearance and 
+smooth transition when cursor hovers the nav. */
+footer nav ul li a {
+    color:rgb(216, 199, 177);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3 ease;   
+}
+
+/* this help set the h1 text which is the aliyya.yla journals
+into the center of the footer. */
+footer h1 {
+    text-align: center;
+    font-family:'Merriweather';
+} 
+
+/* this sets the paragraph copyright into the center
+of the footer.  */
+footer p {
+    text-align: center;
+    font-family:'inter';
+}
+
+/* separate div tag name for the image display. 
+This will fix the image to be on the left part of the screen. */
+.txt { 
+    flex: 0 0 auto;
+    width: 450px;
+    height: auto;
+    margin-right: 20px;
+    top: 20px;
+    right: 20px;
+    float: left;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+}
+
+/* this div class wallpapers covers all the content of class wallpaper-container,
+image and button. */
+.wallpapers {
+    display:flex;
+    align-items: flex-start;
+}
+
+/* this css code represents what's inside the div class wallpapers-container.
+This will fix the look od the overall look of the monthly wallpapers. */
+.wallpapers-container {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* this is for the paragraph in the wallpapers-container. 
+This allows the paragraph to be alinged with the image at the 
+right. */
+.wallpapers-container p {
+    margin-left: 20px;
+    padding-left: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* this code will help fix the paragraph of the home and place it
+at the center and make the font look big. */
+.home p {
+    text-align: center;
+    font-size: 30px;
+    font-family:'inter';
+}
+
+/*this is to fix the monthly wallpapers header to the right
+side of the screen. */
+.wallpapers-container h3 {
+    font-size: 60px;
+    color:rgb(216, 199, 177);
+    margin-left: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+/* this css code set the default place of the button to the left
+to align the paragaph. */
+.btn {
+    float:left;
+    margin-left: 20px;
+}

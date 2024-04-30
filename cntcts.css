@@ -1,0 +1,168 @@
+
+/* this css code covers all the content of the 
+contacts which inlcludes the p, h2, and img. */
+.contacts {
+    text-align: center;
+    margin: 50px;
+}
+
+/* this h1 a is for the text inside the header which is 
+aliyya.yla journals. This sets the color and font size of the 
+header 1. */
+h1 a {
+    font-size: 50px;
+    color: rgb(216, 199, 177);
+    font-family:'Merriweather';
+}
+
+/* this css code aligns the header 2 Contact to the center. */
+h2 {
+    text-align: center;
+    font-family:'Merriweather';
+    font-size: 50px;
+}
+
+/* this css code aligns the paragraph of the Contact to the center. */
+p {
+    text-align: center;
+    font-family:'inter';
+}
+
+/* this sets the footer a default look. */
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #706b6b;
+    color:#ffffda;
+}
+
+/* this sets the footer's nav unordered list into a
+default look. */
+footer nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+/* this sets thw footer's unordered list into the center and 
+helps every section of the nav bar inline and organized. */
+footer nav ul li {
+    display: inline;
+    margin:20px;
+}
+
+/* this navigation ul list a sets the navigation bar's appearance and 
+smooth transition when cursor hovers the nav. */
+footer nav ul li a {
+    color:rgb(216, 199, 177);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3 ease;    
+}
+
+/* this sets the paragraph copyright into the center
+of the footer. */
+footer p {
+    text-align: center;
+}
+
+/* this help set the h1 text which is the aliyya.yla journals
+into the center of the footer. */
+footer h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* this sets the overall look of the placeholder. */
+.email-container {
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* this css code sets the input type of the placeholder into a default
+look. This is code only recognizes emails when put in. */
+input[type="email"] {
+    width: calc(100%- 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* this css code sets the button's appearance to a default look. */
+button[type="submit"] {
+    width: 80px;
+    padding: 10px;
+    background-color:  #706b6b;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Merriweather';
+}
+
+/* this css code sets the color of the placeholder as a default look. */
+input::placeholder {
+    color: #999;
+}
+
+/* this css code sets as a default look of the label 'place your email here' 
+and it serves as kind of a header aswell. */
+label {
+    font-size: 25px;
+    text-align: center;
+    color:rgb(216, 199, 177);
+    font-family:'inter';
+}
+
+/* this btn class tag lets the button change color with
+a smooth transition when cursor hovers the button. */
+button:hover { 
+    transition: 0.3s;
+    background-color:rgb(216, 199, 177);
+    color:tomato;
+}
+
+/* this is a separate div tag name for the image display. 
+This fixes the image to be at the center of the screen. */
+.zoo {
+    flex: 0 0 auto;
+    width: 440px;
+    height: 580px;
+    margin: 20px;
+    top: 20px;
+    right: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* this is a separate div tag name for my social media. 
+This aligns the image at the center. */
+.socmed {
+    text-align:center;
+    margin-top: 20px;
+    font-family:'inter';
+}
+
+/* this aligns the paragraph 'My socials' at the center. */
+.socmed p{
+    text-align: center;
+}
+
+/* this sets the a link as a default look. */
+.socmed a {
+    display:inline-block;
+    margin: 0 20px;
+    transition: transform 0.3 ease;
+}
+
+/* this code sets the appearance of the image. 
+this allows to resize the image to be resize. */
+.socmed a img {
+    width: 30px;
+    height:auto;
+    margin-bottom: 20px;
+}
